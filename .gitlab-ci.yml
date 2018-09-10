@@ -1,0 +1,13 @@
+image: rochdev/alpine-asciidoctor:mini
+
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - asciidoctor README.adoc -o public/index.html
+    - mv css images public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
