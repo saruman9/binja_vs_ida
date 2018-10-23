@@ -19,7 +19,7 @@ ifeval::["{lang}" == "ru"]
 :figure-caption: Рисунок
 endif::[]
 // GitLab don't parse ifeval
-:toc-title: Содержимое
+:toc-title: Содержание
 :figure-caption: Рисунок
 :sectlinks:
 :numbered:
