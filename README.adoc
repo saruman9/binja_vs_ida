@@ -13,7 +13,7 @@ endif::[]
 :stylesheet: css/dark.css
 :lang:ru
 ifeval::["{lang}" == "ru"]
-:toc-title: Содержимое
+:toc-title: Содержание
 :appendix-caption: Приложение
 :example-caption: Пример
 :figure-caption: Рисунок
